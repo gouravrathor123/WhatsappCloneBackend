@@ -3,17 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start":"node index",
     "dev":"nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouravrathor123/WhatsappCloneBackend.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.12.7",
-    "nodemon": "^2.0.7",
-    "socket.io": "^4.0.1"
-  }
+  "bugs": {
+    "url": "https://github.com/gouravrathor123/WhatsappCloneBackend/issues"
+  },
+  "homepage": "https://github.com/gouravrathor123/WhatsappCloneBackend#readme"
 }
