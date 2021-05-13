@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/gouravrathor123/WhatsappCloneBackend/issues"
   },
-  "homepage": "https://github.com/gouravrathor123/WhatsappCloneBackend#readme"
+  "homepage": "https://github.com/gouravrathor123/WhatsappCloneBackend#readme",
+  "engines": {
+    "node": "14.x"
+  }
 }
