@@ -17,10 +17,10 @@ io.on("connection",(socket)=>{
     console.log("Connection is on Bitch!");
     console.log(socket.id, " has joined");
     socket.on("signin",(id)=>{
-        console.log(id);
         clients[id]=socket;
         console.log(clients);
     });
+    
     socket.on("message",(msg)=>{
         console.log(msg);
         let targetId=msg.targetId;
